@@ -7,7 +7,7 @@ LIBFT = -L ./libft/ -lft
 MLXI = "./minilibx"
 MLX = -L ./minilibx/ -lmlx
 
-SRCS = $(SRC)fdf.c
+SRCS = $(SRC)fdf.c $(SRC)fdf_draw.c $(SRC)fdf_funcs.c $(SRC)fdf_instance.c
 
 all: $(NAME)
 
